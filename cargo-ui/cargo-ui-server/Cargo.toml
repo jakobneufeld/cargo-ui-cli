@@ -1,0 +1,15 @@
+[package]
+name = "cargo-ui-server"
+version = "0.1.0"
+authors = ["jakobneufeld <jakob.n.neufeld@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "*"
+toml = "0.5.7"
+toml_edit = "0.2.0"
+serde_json = "1.0.59"
+hey = "*"
+json = "*"
